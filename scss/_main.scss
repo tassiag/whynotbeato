@@ -44,6 +44,10 @@ li {
 
 }
 
+ .unstyled:hover {
+        border-bottom: none;
+    } 
+
 .logo {
     font-size: 30px;
     font-weight: bold;
@@ -54,6 +58,8 @@ li {
         background-color:#00fffb ;
          font-family: 'Arvo', serif;
     }
+
+   
 
 }
 
