@@ -23,7 +23,6 @@
             <a href="index.html" class="unstyled"><h1 class="logo">why <span class="not">(not)</span> beato?</h1></a>
             <nav>
             <ul>
-                <li><a href="index.html">home</a></li>
                 <li><a href="#about">sobre</a></li>
                 <li><a href="#guide">guia</a></li>
                 <li><a href="gallery.html">galeria</a></li>
@@ -161,8 +160,10 @@
 
         </section>
 
+      
+
         <footer>
-            <p>Siga o projeto @<a href="">instagram</a></p>
+            <h3 id="scroll-up"> scroll to top <i class="fas fa-arrow-up"></i></h3>
             <p>Criado por <a href>Tássia Gomes</a></p>
         </footer>
 
@@ -174,6 +175,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js "
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx "
     crossorigin="anonymous "></script>
+    <script>
+                let button = document.getElementById("scroll-up");
+                
+                button.addEventListener("click", scrollUp);
+
+                function scrollUp() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+    </script>
 
 </body>
 

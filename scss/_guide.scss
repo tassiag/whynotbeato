@@ -16,6 +16,10 @@
     display: flex;
     padding: 0 50px;
   justify-content: space-around;
+
+   @media only screen and (max-width: 900px) {
+         flex-wrap: wrap;
+     }
 }
 
 .box  {
@@ -23,6 +27,11 @@
   margin: 100px 0;
   background: #ededed;
   padding: 20px;
+
+   @media only screen and (max-width: 900px) {
+         flex-basis: 100%;
+         margin: 20px 0;
+     }
 
   ul {
       margin: 0;
